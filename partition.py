@@ -2,7 +2,7 @@ from random import choice, randint, random
 from maxheap import buildHeap, extractMax, insert
 from math import exp
 
-MAX_ITER = 250
+MAX_ITER = 25000
 
 def KK(A):
     H = A.copy()
